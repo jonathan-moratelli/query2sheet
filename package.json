@@ -1,0 +1,32 @@
+{
+  "name": "query2sheet",
+  "description": "An easy way to turn database queries into spreadsheets",
+  "version": "1.0.0",
+  "main": "./src/api.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "dev:api": "nodemon ./src/api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathan-moratelli/query2sheet.git"
+  },
+  "keywords": [
+    "sql",
+    "spreadsheet"
+  ],
+  "author": "Jonathan Moratelli de Carvalho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathan-moratelli/query2sheet/issues"
+  },
+  "homepage": "https://github.com/jonathan-moratelli/query2sheet#readme"
+}
