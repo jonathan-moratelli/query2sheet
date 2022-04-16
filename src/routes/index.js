@@ -1,6 +1,6 @@
 const express = require('express');
 
-const { verifyAuth } = require('../midlewares/authentication');
+const { verifyUser } = require('../midlewares/authentication');
 
 
 // const authRoute = require('./auth.route');
